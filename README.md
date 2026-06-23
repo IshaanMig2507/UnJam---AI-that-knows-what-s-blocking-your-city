@@ -10,26 +10,22 @@ Built for **GridLock Hackathon 2.0 by Flipkart and HackerEarth**.
 
 ##  Prototype Screenshots
 
-### Logo
+Explore the UnJam Command Centre prototype showcasing AI-powered hotspot prioritization, geospatial visualization, and enforcement analytics.
 
-![Logo](ss3.jpeg)
+<p align="center">
+<img src="ss3.jpeg" width="35%">
+<img src="ss1.jpeg" width="48%">
+</p>
 
-### Dashboard
+<p align="center">
+<img src="ss4.jpeg" width="48%">
+<img src="ss2.jpeg" width="48%">
+</p>
 
-![Dashboard](ss1.jpeg)
-
-### Interactive Map
-
-![Interactive Map](ss8.jpeg)
-
-### Priority Queue
-
-![Priority Queue](ss4.jpeg)
-
-
-### Impact Simulation
-
-![Impact Simulation](ss2.jpeg)
+<p align="center">
+<img src="ss8.jpeg" width="48%">
+<img src="ss6.jpeg" width="48%">
+</p>
 
 ##  Demo Video
 
@@ -127,7 +123,8 @@ The model learns urgency using:
 
 ### Evaluation Metric
 
-**NDCG — Normalized Discounted Cumulative Gain**
+**NDCG — Normalized Discounted Cumulative Gain** 
+**Achieved Score : 0.96**
 
 ---
 
@@ -361,16 +358,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5. Run the Dashboard
+### 5. Ensure Required Files
+
+Before running the application, make sure the following files are present in the project root:
+
+- `final_urbanpulse_data.pkl`
+- `ranker_model.pkl`
+- `feature_names.json`
+- `metrics.json`
+
+### 6. Run the Dashboard
 
 ```bash
-python src/dashboard.py
-```
-
-Or if using Streamlit:
-
-```bash
-streamlit run src/dashboard.py
+streamlit run app.py
 ```
 
 ---
@@ -384,14 +384,10 @@ Organized by **Flipkart × HackerEarth**
 
 ##  Team
 
-```text
-Team Name: <VibelessCoders>
+**Team:** VibelessCoders
 
-Members:
-- <Ishaan Miglani>
-- <Devang Garg>
-
-```
+- Ishaan Miglani
+- Devang Garg
 
 ---
 
@@ -400,6 +396,4 @@ Members:
 > Cities do not need faster enforcement.  
 > They need smarter enforcement.
 
-#  UnJam
 
-## Because one wrongly parked vehicle should not stop an entire city.
