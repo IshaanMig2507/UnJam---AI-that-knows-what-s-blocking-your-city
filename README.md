@@ -10,21 +10,37 @@ Built for **GridLock Hackathon 2.0 by Flipkart and HackerEarth**.
 
 ##  Prototype Screenshots
 
-Explore the UnJam Command Centre prototype showcasing AI-powered hotspot prioritization, geospatial visualization, and enforcement analytics.
-
+###  Logo
 <p align="center">
-<img src="ss3.jpeg" width="35%">
-<img src="ss1.jpeg" width="48%">
+  <img src="ss3.jpeg" width="30%">
 </p>
 
+---
+
+###  Dashboard
 <p align="center">
-<img src="ss4.jpeg" width="48%">
-<img src="ss2.jpeg" width="48%">
+  <img src="ss1.jpeg" width="90%">
 </p>
 
+---
+
+###  Interactive Map View
 <p align="center">
-<img src="ss8.jpeg" width="48%">
-<img src="ss6.jpeg" width="48%">
+  <img src="ss8.jpeg" width="90%">
+</p>
+
+---
+
+###  Priority Queue
+<p align="center">
+  <img src="ss4.jpeg" width="90%">
+</p>
+
+---
+
+###  Impact Simulation
+<p align="center">
+  <img src="ss2.jpeg" width="90%">
 </p>
 
 ##  Demo Video
@@ -305,19 +321,36 @@ Deployment     → Local / Cloud-Ready
 ##  Project Structure
 
 ```text
-Source Code/
+UnJam/
 │
-├── app.py
-├── UnJam.py
-├── feature_names.json
-├── final_urbanpulse_data.pkl
-├── ranker_model.pkl
-├── requirements.txt
-└── metrics.json
+│── Source Code/
+│   │
+│   ├── app.py
+│   ├── UnJam.py
+│   ├── feature_names.json
+│   ├── final_urbanpulse_data.pkl
+│   ├── ranker_model.pkl
+│   ├── requirements.txt
+│   └── metrics.json
+│
+│
+│── Datasets.zip
+│
 │
 ├── assets/
 │   ├── UnJam logo.jpeg
-│   
+│
+│
+│── ss1.jpeg
+│── ss2.jpeg
+│── ss3.jpeg
+│── ss4.jpeg
+│── ss5.jpeg
+│── ss6.jpeg
+│── ss7.jpeg
+│── ss8.jpeg
+│
+│
 └── README.md
 ```
 
@@ -328,8 +361,8 @@ Source Code/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/unjam.git
-cd unjam
+git clone https://github.com/IshaanMig2507/UnJam---AI-that-knows-what-s-blocking-your-city.git
+cd UnJam---AI-that-knows-what-s-blocking-your-city
 ```
 
 ### 2. Create Virtual Environment
