@@ -8,6 +8,33 @@ Built for **GridLock Hackathon 2.0 by Flipkart and HackerEarth**.
 
 ---
 
+##  Prototype Screenshots
+
+### Logo
+
+![Logo](ss3.jpeg)
+
+### Dashboard
+
+![Dashboard](ss1.jpeg)
+
+### Interactive Map
+
+![Interactive Map](ss8.jpeg)
+
+### Priority Queue
+
+![Priority Queue](ss4.jpeg)
+
+
+### Impact Simulation
+
+![Impact Simulation](ss2.jpeg)
+
+##  Demo Video
+
+👉 [Watch the Demo Video](https://drive.google.com/file/d/1gMyh90WYzPyg3IJ7GOZVqkfIGEUF2Un9/view?usp=sharing)
+
 ##  Problem
 
 Illegal parking is not just a rule violation — it is a congestion multiplier.
